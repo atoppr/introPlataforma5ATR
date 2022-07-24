@@ -4,7 +4,7 @@ Por ejemplo:
 join(["h","o","l","a"]) debe retornar el string "hola".
 join(["c","h","a,"u"]) debe retornar el string "chau". */
 
-/*** Resolucion ***/
+/*** Resolución ***/
 
 function join (arr){
     let arrNew = ""
@@ -13,4 +13,6 @@ function join (arr){
     }
     return arrNew
 }
-join(["c","h","a","u"])  //test
+
+join(["c","h","a","u"])  //Para testear: debe retornar el string "hola"
+join(["c","h","a,"u"]) //Para testear: debe retornar el string "chau"
